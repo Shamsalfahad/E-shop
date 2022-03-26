@@ -1,0 +1,29 @@
+.header {
+  height: 80px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header h1 {
+  color: white;
+}
+span {
+  color: rgb(50, 78, 205);
+}
+.header a {
+  text-decoration: none;
+  color: rgb(56, 17, 17);
+  font-size: 17px;
+  margin-right: 36px;
+}
+
+.header a:hover {
+  color: rgb(85, 76, 60);
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    width: 500px;
+  }
+}
